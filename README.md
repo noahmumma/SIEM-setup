@@ -6,6 +6,13 @@
 <h1>Setup and Deployment of Security Information and Event Management (SIEM) and Extended Detection and Response (XDR) tools on Linux VM</h1>
 This tutorial outlines the setup and deployment of Wazuh's combined SIEM and XDR tool on a Linux virtual machine.<br />
 
+<h2>What are SIEM and XDR tools?</h2>
+A Security Information and Event Management, or SIEM, is a tool that assists organizations in recognizing potential security threats before they happen. They include log management, incident monitoring and security alerts, event analytics, and compliance management and reporting. SIEM tools are of great use to organizations for real-time threat recognition and boosting organizational efficiency. A SIEM is a necessity for any SOC analyst. 
+
+Extended detection and response, or XDR, takes data from all areas of an organization's environment: IAM, email, network, cloud, endpoints, etc. It brings all of that information into a single platform, sorts it into a digestible format, to assists organizations in detecting and responding to threats. 
+
+The main difference between the two is that SIEM uses broad log management to alert security teams to any suspicious activity on a network, while XDR can detect, investigate,  and respond. SIEM tools are better used for compliance and visibility across a network, while XDR is excellent for threat hunting and rapid response. 
+
 <h2>Environments and Technologies Used</h2>
 
 - Firefox
@@ -36,4 +43,32 @@ First, visit the Wazuh homepage to find the installation assistant. Go to "wazuh
 </p>
 <p>
 This may not come up, but if you are having issues pasting the script into your VM's terminal, follow these steps. First, run the command "sudo bash". This gives you root privilege access to the system. After entering your password, run "sudo apt install open-vm-tools", then enter "y". This installs the open-source version of VMware tools in a Linux VM, which will also allow you to copy and paste directly into the terminal. 
+<br />
+
+<p>
+<img src="https://i.imgur.com/VzBgbvt.png" height="80%" width="80%" alt="Step 3"/>
+</p>
+<p>
+Now, paste the installation assistant into the terminal, and allow Wazuh to finish the process. After it has finished installing, scroll to the bottom of the process and save the username and password it provides.
+<br />
+
+<p>
+<img src="https://i.imgur.com/U9gkdlS.png" height="80%" width="80%" alt="Step 3"/>
+</p>
+<p>
+Next, enter "ip a" into the terminal. This command will give you several bits of information, but the most important one is the IP address you will need to use to access Wazuh's system. You will find it in the second section of the information. 
+<br />
+
+<p>
+<img src="https://i.imgur.com/qHMvXsM.png" height="80%" width="80%" alt="Step 3"/>
+</p>
+<p>
+From here, copy and paste the IP address into the search bar in a web browser and allow it to take you to the Wazuh website. A message will pop up and inform you that the certificate is not from a trusted authority. This is expected, and there is no risk posed to you moving forward. After you input your username and password, congratulations! You have successfully set up the Wazuh SIEM and XDR tool! Now, to deploy some agents. 
+<br />
+
+<p>
+<img src="https://i.imgur.com/qHMvXsM.png" height="80%" width="80%" alt="Step 3"/>
+</p>
+<p>
+From here, copy and paste the IP address into the search bar in a web browser and allow it to take you to the Wazuh website. A message will pop up and inform you that the certificate is not from a trusted authority. This is expected, and there is no risk posed to you moving forward. After you input your username and password, congratulations! You have successfully set up the Wazuh SIEM and XDR tool! Now, to deploy some agents. 
 <br />
