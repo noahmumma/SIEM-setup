@@ -67,8 +67,8 @@ From here, copy and paste the IP address into the search bar in a web browser an
 <br />
 
 <p>
-<img src="https://i.imgur.com/qHMvXsM.png" height="80%" width="80%" alt="Step 3"/>
+<img src="https://i.imgur.com/3zMBHCg.png" height="80%" width="80%" alt="Step 3"/>
 </p>
 <p>
-From here, copy and paste the IP address into the search bar in a web browser and allow it to take you to the Wazuh website. A message will pop up and inform you that the certificate is not from a trusted authority. This is expected, and there is no risk posed to you moving forward. After you input your username and password, congratulations! You have successfully set up the Wazuh SIEM and XDR tool! Now, to deploy some agents. 
+At the top left of the dashboard, click "+ Deploy new agent". A new window will open, with different options for the agent depending on what system you are planning on deploying it to. First, we need to select the package to download and install on our system. Since this example is using a Kali Linux VM, "DEB amd64" is the appropriate choice. For the server address, copy and paste the IP address in the search bar that you used to access this web browser. Then, choose a name for the agent (just make sure it is unique, and know that it cannot be changed). Now, Wazuh will have created commands for you to copy and run in your terminal to deploy the agent.
 <br />
