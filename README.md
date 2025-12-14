@@ -70,5 +70,19 @@ From here, copy and paste the IP address into the search bar in a web browser an
 <img src="https://i.imgur.com/3zMBHCg.png" height="80%" width="80%" alt="Step 3"/>
 </p>
 <p>
-At the top left of the dashboard, click "+ Deploy new agent". A new window will open, with different options for the agent depending on what system you are planning on deploying it to. First, we need to select the package to download and install on our system. Since this example is using a Kali Linux VM, "DEB amd64" is the appropriate choice. For the server address, copy and paste the IP address in the search bar that you used to access this web browser. Then, choose a name for the agent (just make sure it is unique, and know that it cannot be changed). Now, Wazuh will have created commands for you to copy and run in your terminal to deploy the agent.
+At the top left of the dashboard, click "+ Deploy new agent". A new window will open, with different options for the agent depending on the system you plan to deploy it to. First, we need to select the package to download and install on our system. Since this example is using a Kali Linux VM, "DEB amd64" is the appropriate choice. For the server address, copy and paste the IP address in the search bar that you used to access this web browser. Then, choose a name for the agent (just make sure it is unique, and know that it cannot be changed). Now, Wazuh will have created commands for you to run.
+<br />
+
+<p>
+<img src="https://i.imgur.com/Oxxwv4o.png" height="80%" width="80%" alt="Step 3"/>
+</p>
+<p>
+To start the agent, you need to create a separate VM. You can clone your current VM to make this easier. Once you have, input the command to download and install the Wazuh agent. Following that, input the command to start the agent. 
+<br />
+
+<p>
+<img src="https://i.imgur.com/c1zc3aS.png" height="80%" width="80%" alt="Step 3"/>
+</p>
+<p>
+Now that the first agent is deployed, refresh the SIEM's dashboard to see the agent pop up. To access it, click on "Active (1) --> [your agent title]). From here, poke around. There are a lot of different functions that this SIEM tool provides, and this tutorial will only show you a few. First, we'll examine how activity on the agent shows up on the dashboard. 
 <br />
