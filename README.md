@@ -84,5 +84,16 @@ To start the agent, you need to create a separate VM. You can clone your current
 <img src="https://i.imgur.com/c1zc3aS.png" height="80%" width="80%" alt="Step 3"/>
 </p>
 <p>
-Now that the first agent is deployed, refresh the SIEM's dashboard to see the agent pop up. To access it, click on "Active (1) --> [your agent title]). From here, poke around. There are a lot of different functions that this SIEM tool provides, and this tutorial will only show you a few. First, we'll examine how activity on the agent shows up on the dashboard. 
+Now that the first agent is deployed, refresh the SIEM's dashboard to see the agent pop up. To access it, click on "Active (1) --> [your agent title]". From here, poke around. This SIEM tool offers numerous functions, and this tutorial will only cover a few of them. First, we'll examine how activity on the agent shows up on the dashboard. 
+<br />
+
+<p>
+<img src="https://i.imgur.com/ZGqQJdU.png" height="80%" width="80%" alt="Step 3"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/khL8a6g.png" height="80%" width="80%" alt="Step 3"/>
+</p>
+<p>
+On the VM the agent is active on, enter "whoami" or any other simple command into the computer's terminal. Head back to the other VM and refresh Wazuh's dashboard. Here, you will see activity noted immediately, with the MITRE ATT&CK framework, vulnerability detection, compliance, events count evolution, etc. Additionally, if you head to "Explore --> Discover", you can find all of the logs coming into the SIEM. Congratulations! You have successfully set up Wazuh's SIEM tool and deployed an agent to help monitor your network.  
 <br />
