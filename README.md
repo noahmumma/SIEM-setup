@@ -17,6 +17,7 @@ The main difference between the two is that SIEM uses broad log management to al
 
 - Firefox
 - VMWare Workstation Pro
+- Wazuh SIEM and XDR tool
 
 <h2>Operating Systems Used </h2>
 
