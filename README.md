@@ -9,7 +9,7 @@ This tutorial outlines the setup and deployment of Wazuh's combined SIEM and XDR
 <h2>What are SIEM and XDR tools?</h2>
 A Security Information and Event Management, or SIEM, is a tool that assists organizations in recognizing potential security threats before they happen. They include log management, incident monitoring and security alerts, event analytics, and compliance management and reporting. SIEM tools are of great use to organizations for real-time threat recognition and boosting organizational efficiency. A SIEM is a necessity for any SOC analyst. 
 
-Extended detection and response, or XDR, takes data from all areas of an organization's environment: IAM, email, network, cloud, endpoints, etc. It brings all of that information into a single platform, sorts it into a digestible format, to assists organizations in detecting and responding to threats. 
+Extended detection and response, or XDR, takes data from all areas of an organization's environment: IAM, email, network, cloud, endpoints, etc. It brings all of that information into a single platform, sorts it into a digestible format, to assist organizations in detecting and responding to threats. 
 
 The main difference between the two is that SIEM uses broad log management to alert security teams to any suspicious activity on a network, while XDR can detect, investigate,  and respond. SIEM tools are better used for compliance and visibility across a network, while XDR is excellent for threat hunting and rapid response. 
 
